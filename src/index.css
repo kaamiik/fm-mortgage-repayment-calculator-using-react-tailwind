@@ -55,4 +55,8 @@
   --spacing-500: 2.5rem;
   /* Shadow */
   --inset-shadow-input: inset 16px 16px var(--color-lime);
+  /* Breakpoints */
+  --breakpoint-sm: 32em;
+  --breakpoint-md: 43em;
+  --breakpoint-lg: 63em;
 }

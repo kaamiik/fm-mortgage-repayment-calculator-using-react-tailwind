@@ -1,20 +1,13 @@
-import Button from './Button';
-import RadioButton from './RadioButton';
+import CalculatorSection from './CalculatorSection';
+import ResultsSection from './ResultsSection';
 
 function PageMain() {
   return (
-    <main className="flex-1">
-      <fieldset>
-        <legend>Mortgage Type</legend>
-        <div className="mt-150 flex flex-col gap-150">
-          <RadioButton name="mortgage" id="repayment">
-            Repayment
-          </RadioButton>
-          <RadioButton name="mortgage" id="interest">
-            Interest Only
-          </RadioButton>
-        </div>
-      </fieldset>
+    <main className="flex-1 md:flex md:items-center">
+      <div className="mx-auto grid max-w-[43rem] bg-white md:my-500 md:overflow-hidden md:rounded-3xl lg:max-w-[63em] lg:grid-cols-2">
+        <CalculatorSection />
+        <ResultsSection />
+      </div>
     </main>
   );
 }
