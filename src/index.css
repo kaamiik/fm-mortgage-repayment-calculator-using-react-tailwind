@@ -5,8 +5,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('/public/assets/fonts/static/PlusJakartaSans-Medium.ttf')
-    format('truetype');
+  src: url('/assets/fonts/static/PlusJakartaSans-Medium.ttf') format('truetype');
 }
 
 @font-face {
@@ -14,8 +13,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/public/assets/fonts/static/PlusJakartaSans-Bold.ttf')
-    format('truetype');
+  src: url('/assets/fonts/static/PlusJakartaSans-Bold.ttf') format('truetype');
 }
 
 @theme {
