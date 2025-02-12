@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   NumberField,
   Label,
@@ -6,12 +7,13 @@ import {
   FieldError,
 } from 'react-aria-components';
 
-function NumberFieldAffix({ type, label, symbol }) {
+function NumberFieldAffix({ type, label, symbol, value, onChange }) {
   if (type === 'prefix')
     return (
       <NumberField
         className="flex flex-col gap-150"
-        defaultValue={0}
+        value={value}
+        onChange={onChange}
         minValue={0}
         isRequired={true}
       >
@@ -34,7 +36,8 @@ function NumberFieldAffix({ type, label, symbol }) {
     return (
       <NumberField
         className="flex flex-col gap-150"
-        defaultValue={0}
+        value={value}
+        onChange={onChange}
         minValue={0}
         isRequired={true}
       >
