@@ -14,7 +14,7 @@ function Button({ children, category, onClick }) {
       <button
         onClick={onClick}
         className="text-400 cursor-pointer text-slate-700 underline transition-colors duration-300 ease-in-out hover:text-slate-900 focus-visible:rounded-sm focus-visible:text-slate-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-900 focus-visible:outline-dotted"
-        type="button"
+        type="reset"
       >
         {children}
       </button>

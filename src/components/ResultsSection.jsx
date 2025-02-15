@@ -22,7 +22,7 @@ function ResultsSection({ results }) {
           >
             <div className="flex flex-col gap-100">
               <p className="text-slate-300">Your monthly repayments</p>
-              <output className="text-lime text-900">
+              <output className="text-lime sm:text-900 text-4xl font-bold">
                 {formatCurrency(results.monthlyPayment)}
               </output>
             </div>
